@@ -1,0 +1,17 @@
+set expandtab           " tabs are spaces
+set tabstop=4           " set tabstop
+set softtabstop=4       " number of spaces in tab when editing
+
+set number              " line number
+set cursorline
+
+filetype indent on      " filetype specific indentation
+set wildmenu            " visual autocomplete for command menu
+set showmatch           " highlight matching parantheses
+
+syntax enable           " enable syntax processing
+
+colorscheme desert
+
+" pathogen settings
+execute pathogen#infect()
