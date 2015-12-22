@@ -1,3 +1,6 @@
+" pathogen settings
+execute pathogen#infect()
+
 set expandtab           " tabs are spaces
 set tabstop=4           " set tabstop
 set softtabstop=4       " number of spaces in tab when editing
@@ -13,5 +16,5 @@ syntax enable           " enable syntax processing
 
 colorscheme desert
 
-" pathogen settings
-execute pathogen#infect()
+map <C-n> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
