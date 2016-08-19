@@ -1,5 +1,8 @@
-" pathogen settings
-execute pathogen#infect()
+" Load plugins managed by pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 set expandtab           " tabs are spaces
 set tabstop=4           " set tabstop
